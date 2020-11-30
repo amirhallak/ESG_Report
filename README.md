@@ -1,5 +1,7 @@
 # ESG Reddit Scraper
 
+[![esg_image](https://www.jpmorgan.com/content/dam/jpm/commercial-banking/insights/leadership/esg%20-article-graphic.jpg)](https://www.jpmorgan.com/content/dam/jpm/commercial-banking/insights/leadership/esg%20-article-graphic.jpg)
+
 **Please check [ESG SCRAPER REPORT](https://github.com/amirhallak/ESG_Report/blob/main/scripts/Report_Notebook.ipynb) for the full report and visualizations.**
 
 The main scripts can be found under [scripts](https://github.com/amirhallak/ESG_Report/blob/main/scripts/).
