@@ -61,6 +61,14 @@ def df_reader():
     '''
     This function will create the master data frame and append all the
     scraped data frames and merge them on submission_id.
+
+    Returns:
+    --------
+    sub_df: pandas dataframe
+        The submissions dataframe after it was cleaned up.
+    
+    com_df: pandas dataframe
+        The comment dataframe after it was cleaned up. 
     '''
 
     # creating the submission list

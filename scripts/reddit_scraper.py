@@ -50,6 +50,11 @@ list_of_subreddits = [
 def authenticator_df():
     '''
     This is the authenticator function that gives access to reddit.
+
+    Returns:
+    ---------
+    reddit: praw object
+        The authenticator information to log into the Reddit API. 
     '''
 
     # inserting the details
@@ -68,14 +73,14 @@ def reddit_scraper(keyword):
     The actual reddit scraper function in which we can configure to grab what
     we need from a reddit post. 
     
-    Parameters
-    ----------
-    keyword: string
+    Parameters:
+    -----------
+    keyword: str
         The keyword we are interested in scraping off reddit.
 
-    returns
-    -------
-    pandas dataframes
+    Returns:
+    --------
+    pandas dataframe
         This function will return two dataframes for each keyword; a comment dataframe and a submission dataframe. 
     '''
     
